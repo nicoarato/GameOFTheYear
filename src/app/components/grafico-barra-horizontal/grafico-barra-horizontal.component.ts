@@ -1,4 +1,4 @@
-import { Component, OnDestroy } from '@angular/core';
+import { Component, OnDestroy, Input } from '@angular/core';
 
 @Component({
   selector: 'app-grafico-barra-horizontal',
@@ -8,6 +8,9 @@ import { Component, OnDestroy } from '@angular/core';
 export class GraficoBarraHorizontalComponent implements OnDestroy{
 
 
+  @Input() results: any[] = [];
+
+/*
   results: any[] = [
     {
       "name": "Juego1",
@@ -27,7 +30,7 @@ export class GraficoBarraHorizontalComponent implements OnDestroy{
       "value": 35
     }
   ];
-
+ */
 
 
   // options
