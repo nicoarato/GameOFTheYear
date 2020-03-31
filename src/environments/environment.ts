@@ -4,7 +4,17 @@
 
 export const environment = {
   production: false,
-  url: 'http://localhost:5000/firestore-grafica-2f879/us-central1'
+  url: 'http://localhost:5000/firestore-grafica-2f879/us-central1',
+  firebase: {
+    apiKey: 'AIzaSyA_gmmKJ_wpAPUW8Y7XAu4vgdTZO-PHXzg',
+    authDomain: 'firestore-grafica-2f879.firebaseapp.com',
+    databaseURL: 'https://firestore-grafica-2f879.firebaseio.com',
+    projectId: 'firestore-grafica-2f879',
+    storageBucket: 'firestore-grafica-2f879.appspot.com',
+    messagingSenderId: '421350997390',
+    appId: '1:421350997390:web:605898977b1ff46ef0b8df'
+
+  }
 };
 
 /*
