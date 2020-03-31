@@ -1,27 +1,35 @@
 # Goty
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.2.
+ And use Firebase for the Api Rest.
+
+## Project
+
+Visit de project at https://firestore-grafica-2f879.firebaseapp.com/
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Error to build the project
 
-## Running unit tests
+https://github.com/facebook/create-react-app/issues/8680#issuecomment-601896916
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Sigue los siguientes pasos
 
-## Running end-to-end tests
+1.- Borra node_modules and package-lock.json
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+2.- Añade "resolutions": { "@babel/preset-env": "^7.8.7" } en el package.json
 
-## Further help
+3.- Ejecuta npm install npm-force-resolutions --save-dev
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+4.- Ejecuta npm install
+
+5.- Ejecuta npx npm-force-resolutions
+
+6.- npm install de nuevo
+
+7.- Ejecuta npm run build
