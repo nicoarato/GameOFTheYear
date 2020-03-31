@@ -42,10 +42,10 @@ export class GraficoBarraHorizontalComponent implements OnDestroy{
 
   colorScheme = 'nightLights';
 
-  intervalo;
+  //intervalo;
   constructor() {
 
-  this.intervalo = setInterval( () => {
+/*   this.intervalo = setInterval( () => {
     console.log('tick');
 
     let newResults = [...this.results];
@@ -54,7 +54,7 @@ export class GraficoBarraHorizontalComponent implements OnDestroy{
     }
     this.results = [...newResults];
 
-  }, 1500);
+  }, 1500); */
 }
 
   onSelect(event) {
@@ -62,7 +62,7 @@ export class GraficoBarraHorizontalComponent implements OnDestroy{
   }
 
   ngOnDestroy() {
-    clearInterval(this.intervalo);
+    //clearInterval(this.intervalo);
   }
 
 }
