@@ -28,7 +28,6 @@ export class InicioComponent implements OnInit {
         }
       ))
     .subscribe( juegos => {
-      //console.log(juegos);
       this.juegos = juegos;
     });
   }
