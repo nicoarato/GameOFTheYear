@@ -8,17 +8,21 @@ import { NgxChartsModule } from '@swimlane/ngx-charts';
 
 import { NavbarComponent } from './navbar/navbar.component';
 import { GraficoBarraHorizontalComponent } from './grafico-barra-horizontal/grafico-barra-horizontal.component';
+import { FooterComponent } from './footer/footer.component';
+
 
 
 
 @NgModule({
   declarations: [
     NavbarComponent,
-    GraficoBarraHorizontalComponent
+    GraficoBarraHorizontalComponent,
+    FooterComponent
   ],
   exports: [
     NavbarComponent,
-    GraficoBarraHorizontalComponent
+    GraficoBarraHorizontalComponent,
+    FooterComponent
   ],
   imports: [
     CommonModule,
