@@ -14,6 +14,7 @@ import { environment } from '../environments/environment';
 
 import { ComponentsModule } from './components/components.module';
 
+import {babel} from '@babel/plugin-proposal-numeric-separator';
 
 @NgModule({
   declarations: [
