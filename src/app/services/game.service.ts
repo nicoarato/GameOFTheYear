@@ -18,7 +18,7 @@ export class GameService {
 
     if ( this.juegos.length > 0 ) {
       console.log('Juegos desde cache.');
-      return of(this.juegos); //of devuelve cualquier cosa como un Observable
+      return of(this.juegos); // of devuelve cualquier cosa como un Observable
     } else {
       console.log('Juegos desde internet.');
       return this.http.get< Game[] >( `${ environment.url }/api/goty` )
