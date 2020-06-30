@@ -5,7 +5,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Project
 
-Visit de project at https://firestore-grafica-2f879.firebaseapp.com/
+Visit de project at <a href="https://firestore-grafica-2f879.firebaseapp.com/" target="_blank"> GOTY </a>
 
 ## Development server
 
